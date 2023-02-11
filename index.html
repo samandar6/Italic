@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-block">
+                <div class="header-block-flexbox">
+                    <h1 class="header-block-flexbox__logo">
+                        <a href="#">
+                            <img src="./img/Frame (2).png" alt="logo">
+                        </a>
+                    </h1>
+                    <nav class="header-block-flexbox-nav">
+                        <ul class="header-block-flexbox-nav-ul">
+                            <li class="header-block-flexbox-nav-ul-li">
+                                <a href="#" class="header-block-flexbox-nav-ul-li__link">
+                                    Featured
+                                </a>
+                            </li>
+                            <li class="header-block-flexbox-nav-ul-li">
+                                <a href="#" class="header-block-flexbox-nav-ul-li__link">
+                                    Women
+                                </a>
+                            </li>
+                            <li class="header-block-flexbox-nav-ul-li">
+                                <a href="#" class="header-block-flexbox-nav-ul-li__link">
+                                    Men
+                                </a>
+                            </li>
+                            <li class="header-block-flexbox-nav-ul-li">
+                                <a href="#" class="header-block-flexbox-nav-ul-li__link">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="header-block-flexbox-nav-ul-li">
+                                <a href="#" class="header-block-flexbox-nav-ul-li__link">
+                                    Jewelry
+                                </a>
+                            </li>
+                            <li class="header-block-flexbox-nav-ul-li">
+                                <a href="#" class="header-block-flexbox-nav-ul-li__link">
+                                    Beauty
+                                </a>
+                            </li>
+                            <li class="header-block-flexbox-nav-ul-li">
+                                <a href="#" class="header-block-flexbox-nav-ul-li__link">
+                                    Travel
+                                </a>
+                            </li>
+                            <li class="header-block-flexbox-nav-ul-li">
+                                <a href="#"class="header-block-flexbox-nav-ul-li__link">
+                                    Pets
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-block-flexbox-spanbox">
+                        <span class="header-block-flexbox-spanbox-span">
+                            <a href="#" class="header-block-flexbox-spanbox-span__link">
+                                Sign In
+                            </a>
+                        </span>
+                        <span class="header-block-flexbox-spanbox-span">
+                            <a href="#" class="header-block-flexbox-spanbox-span__link">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.5713 10.572L14 14.0007M6.90929 2C6.25982 1.99243 5.6153 2.11382 5.01307 2.35712C4.41085 2.60043 3.86289 2.96082 3.40094 3.41741C2.939 3.87401 2.57225 4.41773 2.32194 5.01708C2.07164 5.61642 1.94275 6.25948 1.94275 6.909C1.94275 7.55852 2.07164 8.20158 2.32194 8.80093C2.57225 9.40028 2.939 9.944 3.40094 10.4006C3.86289 10.8572 4.41085 11.2176 5.01307 11.4609C5.6153 11.7042 6.25982 11.8256 6.90929 11.818C8.20133 11.8029 9.43534 11.2791 10.3437 10.3601C11.252 9.44116 11.7614 8.20113 11.7614 6.909C11.7614 5.61687 11.252 4.37684 10.3437 3.45786C9.43534 2.53888 8.20133 2.01506 6.90929 2Z" stroke="black"/>
+                                </svg>                                    
+                            </a>
+                        </span>
+                        <span class="header-block-flexbox-spanbox-span">
+                            <a href="#" class="header-block-flexbox-spanbox-span__link">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 5.5C2.36739 5.5 2.24021 5.55268 2.14645 5.64645C2.05268 5.74022 2 5.86739 2 6V12.75C2 13.6953 2.80467 14.5 3.75 14.5H12.25C13.1953 14.5 14 13.734 14 12.7893V6C14 5.86739 13.9473 5.74022 13.8536 5.64645C13.7598 5.55268 13.6326 5.5 13.5 5.5H2.5Z" stroke="black"/>
+                                    <path d="M5 5.5V4.5C5 3.70435 5.31607 2.94129 5.87868 2.37868C6.44129 1.81607 7.20435 1.5 8 1.5C8.79565 1.5 9.55871 1.81607 10.1213 2.37868C10.6839 2.94129 11 3.70435 11 4.5V5.5" stroke="black"/>
+                                </svg>                                    
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="luxury-section">
+            <div class="conatiner">
+                <div class="luxury-section-block">
+                    <div class="luxury-section-block-flexbox">
+                        <h2 class="luxury-section-block-flexbox__title">
+                            Luxury without labels.
+                        </h2>
+                        <img src="./img/IMAGE (19).png" alt="soap" class="luxury-section-block-flexbox__img">
+                        <div class="luxury-section-block-flexbox-textBox">
+                            <h3 class="luxury-section-block-flexbox-textBox__title">
+                                Unbranded luxury-grade essentials from the same manufacturers as your favorite brands. No logos, no markups.
+                            </h3>
+                            <a href="#" class="luxury-section-block-flexbox-textBox__link">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brands-section">
+            <div class="conrainer">
+                <div class="brands-section-block">
+                    <div class="brands-section-block-flexbox">
+                        <div class="brands-section-block-flexbox-spanBox">
+                            <span class="brands-section-block-flexbox-spanBox-span">
+                                <img src="./img/Frame (3).png" alt="frame" class="brands-section-block-flexbox-spanBox-span__img">
+                            </span>
+                            <span class="brands-section-block-flexbox-spanBox-span">
+                                <img src="./img/Frame (4).png" alt="frame" class="brands-section-block-flexbox-spanBox-span__img">
+                            </span>
+                            <span class="brands-section-block-flexbox-spanBox-span">
+                                <img src="./img/Frame (5).png" alt="frame" class="brands-section-block-flexbox-spanBox-span__img">
+                            </span>
+                            <span class="brands-section-block-flexbox-spanBox-span">
+                                <img src="./img/Frame (6).png" alt="frame" class="brands-section-block-flexbox-spanBox-span__img">
+                            </span><span class="brands-section-block-flexbox-spanBox-span">
+                                <img src="./img/Frame (7).png" alt="frame" class="brands-section-block-flexbox-spanBox-span__img">
+                            </span>
+                            <span class="brands-section-block-flexbox-spanBox-span">
+                                <img src="./img/Frame (8).png" alt="frame" class="brands-section-block-flexbox-spanBox-span__img">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skincare-section">
+            <div class="container">
+                <div class="skincare-section-block">
+                    <div class="skincare-section-block-flexbox">
+                        <div class="skincare-section-block-flexbox-innerBox">
+                            <img src="./img/IMAGE (20).png" alt="negr" class="skincare-section-block-flexbox-innerBox__img">
+                            <h2 class="skincare-section-block-flexbox-innerBox__title">
+                                Skincare Saviors
+                            </h2>
+                            <p class="skincare-section-block-flexbox-innerBox__text">
+                                Upgrade your routine with prestige formulas for every skin type.
+                            </p>
+                        </div>
+                        <div class="skincare-section-block-flexbox-innerBox">
+                            <img src="./img/IMAGE (21).png" alt="negr" class="skincare-section-block-flexbox-innerBox__img">
+                            <h2 class="skincare-section-block-flexbox-innerBox__title">
+                                Make Yourself at Home
+                            </h2>
+                            <p class="skincare-section-block-flexbox-innerBox__text">
+                                Transform your space with plush bath towels and cozy robes to rival any
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="arrivals-section">
+            <div class="container">
+                <div class="arrivals-section-block">
+                    <div class="arrivals-section-block-flexbox">
+                        <div class="arrivals-section-block-flexbox-textBox">
+                            <h2 class="arrivals-section-block-flexbox-textBox__title">
+                                New arrivals.
+                            </h2>
+                            <p class="arrivals-section-block-flexbox-textBox__text">
+                                Explore new-in products and future bestsellers.
+                            </p>
+                            <a href="#" class="arrivals-section-block-flexbox-textBox__btn">
+                                Shop New Arrivals
+                            </a>
+                        </div>
+                        <div class="arrivals-section-block-flexbox-shopBox">
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox">
+                                <img src="./img/IMAGE (22).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-newBox">
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-newBox__text">
+                                        New
+                                    </p>
+                                </div>
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>    
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                                        Quick View
+                                    </p>                                    
+                                </div>
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                                    <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                                        14k Solid Gold Diamond Drop Chain Earrings
+                                    </h3>
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                                        Same manufacturer as
+                                    </p>
+                                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                            Van Cleef
+                                        </p>
+                                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                            BVLGARI
+                                        </p>
+                                    </div>
+                                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                                $
+                                            </p>
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                                315
+                                            </p>
+                                        </div>
+                                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                                2 Colors
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox">
+                                <img src="./img/IMAGE (22).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-newBox">
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-newBox__text">
+                                        New
+                                    </p>
+                                </div>
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>    
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                                        Quick View
+                                    </p>                                    
+                                </div>
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                                    <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                                        14k Solid Gold Diamond Drop Chain Earrings
+                                    </h3>
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                                        Same manufacturer as
+                                    </p>
+                                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                            Van Cleef
+                                        </p>
+                                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                            BVLGARI
+                                        </p>
+                                    </div>
+                                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                                $
+                                            </p>
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                                315
+                                            </p>
+                                        </div>
+                                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                                2 Colors
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="line-section">
+            <div class="container">
+                <div class="line-section-block">
+                    <div class="line-section-block-flexbox">
+                        <img src="./img/Rectangle.png" alt="rectangle">
+                        <img src="./img/Vector (5).png" alt="iks">
+                        <img src="./img/Rectangle.png" alt="line">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hit-section">
+            <div class="container">
+                <div class="hit-section-block">
+                    <h2 class="hit-section-block__title">
+                        HIIT Refresh
+                    </h2>
+                    <div class="hit-section-block-textBox">
+                        <p class="hit-section-block-textBox__text">
+                            Take your workouts to the next level with supremely soft activewear that's made to move with you.
+                        </p>
+                        <a href="#" class="hit-section-block-textBox__btn">
+                            Discover More
+                        </a>
+                    </div>
+                    <div class="hit-section-block-flexbox">
+                        <img src="./img/IMAGE (23).png" alt="" class="hit-section-block-flexbox__img">
+                        <div class="hit-section-block-flexbox-contentBox content">
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                                <img src="./img/IMAGE (24).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>    
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                                        Quick View
+                                    </p>                                    
+                                </div>
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                                    <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                                        Aura Contour Jacket
+                                    </h3>
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                                        Same manufacturer as
+                                    </p>
+                                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                            Van Cleef
+                                        </p>
+                                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                            BVLGARI
+                                        </p>
+                                    </div>
+                                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                                $
+                                            </p>
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                                315
+                                            </p>
+                                        </div>
+                                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                                2 Colors
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                                <img src="./img/IMAGE (25).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView mini-quickView">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>    
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                                        Quick View
+                                    </p>                                    
+                                </div>
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                                    <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                                        Aura Active Sports Tank
+                                    </h3>
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                                        Same manufacturer as
+                                    </p>
+                                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                            Van Cleef
+                                        </p>
+                                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                            BVLGARI
+                                        </p>
+                                    </div>
+                                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                                $
+                                            </p>
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                                315
+                                            </p>
+                                        </div>
+                                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                                2 Colors
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                                <img src="./img/IMAGE (26).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView mini-quickView">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>    
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                                        Quick View
+                                    </p>                                    
+                                </div>
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                                    <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                                        Aura Active Bodysuit
+                                    </h3>
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                                        Same manufacturer as
+                                    </p>
+                                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                            Van Cleef
+                                        </p>
+                                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                            BVLGARI
+                                        </p>
+                                    </div>
+                                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                                $
+                                            </p>
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                                315
+                                            </p>
+                                        </div>
+                                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                                2 Colors
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                                <img src="./img/IMAGE (27).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-newBox">
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-newBox__text">
+                                        New
+                                    </p>
+                                </div>
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>    
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                                        Quick View
+                                    </p>                                    
+                                </div>
+                                <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                                    <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                                        Aura Racerback Sports Bra
+                                    </h3>
+                                    <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                                        Same manufacturer as
+                                    </p>
+                                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                            Van Cleef
+                                        </p>
+                                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                            BVLGARI
+                                        </p>
+                                    </div>
+                                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                                $
+                                            </p>
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                                315
+                                            </p>
+                                        </div>
+                                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                                2 Colors
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="explore-section">
+          <div class="container">
+            <div class="explore-section-block">
+              <div class="explore-section-block-flexbox">
+                <h2 class="explore-section-block-flexbox__title">
+                  Explore even more.
+                </h2>
+                <div class="explore-section-block-flexbox-box">
+                  <div class="explore-section-block-flexbox-box-innerBox">
+                    <img src="./img/IMAGE (28).png" alt="img" class="explore-section-block-flexbox-innerBox__img">
+                    <p class="explore-section-block-flexbox-innerBox__text">
+                      Women's Clothing
+                    </p>
+                  </div>
+                  <div class="explore-section-block-flexbox-box-innerBox">
+                    <img src="./img/IMAGE (29).png" alt="img" class="explore-section-block-flexbox-innerBox__img">
+                    <p class="explore-section-block-flexbox-innerBox__text">
+                      Bath
+                    </p>
+                  </div>
+                  <div class="explore-section-block-flexbox-box-innerBox">
+                    <img src="./img/IMAGE (30).png" alt="img" class="explore-section-block-flexbox-innerBox__img">
+                    <p class="explore-section-block-flexbox-innerBox__text">
+                      Kitchen
+                    </p>
+                  </div>
+                  <div class="explore-section-block-flexbox-box-innerBox">
+                    <img src="./img/IMAGE (31).png" alt="img" class="explore-section-block-flexbox-innerBox__img">
+                    <p class="explore-section-block-flexbox-innerBox__text">
+                      Bedding
+                    </p>
+                  </div>
+                  <div class="explore-section-block-flexbox-box-innerBox">
+                    <img src="./img/IMAGE (32).png" alt="img" class="explore-section-block-flexbox-innerBox__img">
+                    <p class="explore-section-block-flexbox-innerBox__text">
+                      Men's Clothing
+                    </p>
+                  </div>
+                  <div class="explore-section-block-flexbox-box-innerBox">
+                    <img src="./img/IMAGE (33).png" alt="img" class="explore-section-block-flexbox-innerBox__img">
+                    <p class="explore-section-block-flexbox-innerBox__text">
+                      Jewelry
+                    </p>
+                  </div>
+                  <div class="explore-section-block-flexbox-box-innerBox">
+                    <img src="./img/IMAGE (34).png" alt="img" class="explore-section-block-flexbox-innerBox__img">
+                    <p class="explore-section-block-flexbox-innerBox__text">
+                      Skincare
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="skincare-section">
+          <div class="container">
+              <div class="skincare-section-block">
+                  <div class="skincare-section-block-flexbox">
+                      <div class="skincare-section-block-flexbox-innerBox">
+                          <img src="./img/IMAGE (35).png" alt="negr" class="skincare-section-block-flexbox-innerBox__img">
+                          <h2 class="skincare-section-block-flexbox-innerBox__title">
+                              Skincare Saviors
+                          </h2>
+                          <p class="skincare-section-block-flexbox-innerBox__text">
+                              Upgrade your routine with prestige formulas for every skin type.
+                          </p>
+                      </div>
+                      <div class="skincare-section-block-flexbox-innerBox">
+                          <img src="./img/IMAGE (36).png" alt="negr" class="skincare-section-block-flexbox-innerBox__img">
+                          <h2 class="skincare-section-block-flexbox-innerBox__title">
+                              Make Yourself at Home
+                          </h2>
+                          <p class="skincare-section-block-flexbox-innerBox__text">
+                              Transform your space with plush bath towels and cozy robes to rival any
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+        <section class="atelier-section">
+          <div class="container">
+            <div class="atelier-section-block">
+              <div class="atelier-section-block-flexbox">
+                <div class="atelier-section-block-flexbox-textBox">
+                  <h2 class="atelier-section-block-flexbox-textBox__title">
+                    Atelier Series
+                  </h2>
+                  <p class="atelier-section-block-flexbox-textBox__text">
+                    The capstone of luxury, with each piece representing the pinnacle of fine materials, master craftsmanship, and timeless design.
+                  </p>
+                  <a href="#" class="atelier-section-block-flexbox-textBox__btn">
+                    Shop Now
+                  </a>
+                </div>
+                <img src="./img/IMAGE (37).png" alt="img" class="atelier-section-block-flexbox__img">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="explore-section">
+          <div class="container">
+            <div class="explore-section-block">
+              <div class="explore-section-block-flexbox">
+                <h2 class="explore-section-block-flexbox__title">
+                  Trending
+                </h2>
+                <div class="explore-section-block-flexbox-box">
+                  <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                    <img src="./img/IMAGE (38).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                            Quick View
+                        </p>                                    
+                    </div>
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                        <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                            Aura Contour Jacket
+                        </h3>
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                            Same manufacturer as
+                        </p>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                Van Cleef
+                            </p>
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                BVLGARI
+                            </p>
+                        </div>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                    $
+                                </p>
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                    315
+                                </p>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                    2 Colors
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                    <img src="./img/IMAGE (39).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                            Quick View
+                        </p>                                    
+                    </div>
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                        <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                            Aura Contour Jacket
+                        </h3>
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                            Same manufacturer as
+                        </p>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                Van Cleef
+                            </p>
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                BVLGARI
+                            </p>
+                        </div>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                    $
+                                </p>
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                    315
+                                </p>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                    2 Colors
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                    <img src="./img/IMAGE (40).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                            Quick View
+                        </p>                                    
+                    </div>
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                        <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                            Aura Contour Jacket
+                        </h3>
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                            Same manufacturer as
+                        </p>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                Van Cleef
+                            </p>
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                BVLGARI
+                            </p>
+                        </div>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                    $
+                                </p>
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                    315
+                                </p>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                    2 Colors
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                    <img src="./img/IMAGE (41).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                            Quick View
+                        </p>                                    
+                    </div>
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                        <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                            Aura Contour Jacket
+                        </h3>
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                            Same manufacturer as
+                        </p>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                Van Cleef
+                            </p>
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                BVLGARI
+                            </p>
+                        </div>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                    $
+                                </p>
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                    315
+                                </p>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                    2 Colors
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                    <img src="./img/IMAGE (42).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                            Quick View
+                        </p>                                    
+                    </div>
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                        <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                            Aura Contour Jacket
+                        </h3>
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                            Same manufacturer as
+                        </p>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                Van Cleef
+                            </p>
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                BVLGARI
+                            </p>
+                        </div>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                    $
+                                </p>
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                    315
+                                </p>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                    2 Colors
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="value-section">
+          <div class="container">
+            <div class="value-section-block">
+              <h2 class="value-section-block__title">
+                What we value most.
+              </h2>
+              <div class="value-section-block-flexbox">
+                <div class="value-section-block-flexbox-innerBox">
+                  <div class="value-section-block-flexbox-innerBox-contentBox">
+                    <h3 class="value-section-block-flexbox-innerBox-contentBox__title">
+                      Atelier-Grade Materials
+                    </h3>
+                    <p class="value-section-block-flexbox-innerBox-contentBox__text">
+                      Fine, rare materials for optimal performance and durability.
+                    </p>
+                    <img src="./img/IMAGE (43).png" alt="img" class="value-section-block-flexbox-innerBox-contentBox__img">
+                  </div>
+                </div>
+                <div class="value-section-block-flexbox-innerBox">
+                  <div class="value-section-block-flexbox-innerBox-contentBox">
+                    <h3 class="value-section-block-flexbox-innerBox-contentBox__title">
+                      Atelier-Grade Materials
+                    </h3>
+                    <p class="value-section-block-flexbox-innerBox-contentBox__text">
+                      Fine, rare materials for optimal performance and durability.
+                    </p>
+                    <img src="./img/IMAGE (53).png" alt="img" class="value-section-block-flexbox-innerBox-contentBox__img">
+                  </div>
+                </div>
+                <div class="value-section-block-flexbox-innerBox">
+                  <div class="value-section-block-flexbox-innerBox-contentBox">
+                    <h3 class="value-section-block-flexbox-innerBox-contentBox__title">
+                      Atelier-Grade Materials
+                    </h3>
+                    <p class="value-section-block-flexbox-innerBox-contentBox__text">
+                      Fine, rare materials for optimal performance and durability.
+                    </p>
+                    <img src="./img/IMAGE (54).png" alt="img" class="value-section-block-flexbox-innerBox-contentBox__img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="skincare-section">
+          <div class="container">
+              <div class="skincare-section-block">
+                  <div class="skincare-section-block-flexbox">
+                      <div class="skincare-section-block-flexbox-innerBox">
+                          <img src="./img/IMAGE (46).png" alt="negr" class="skincare-section-block-flexbox-innerBox__img">
+                          <h2 class="skincare-section-block-flexbox-innerBox__title">
+                              Skincare Saviors
+                          </h2>
+                          <p class="skincare-section-block-flexbox-innerBox__text">
+                            Your best friend deserves the best. Pamper them with Italic’s pet essentials.
+                          </p>
+                      </div>
+                      <div class="skincare-section-block-flexbox-innerBox">
+                          <img src="./img/IMAGE (47).png" alt="negr" class="skincare-section-block-flexbox-innerBox__img">
+                          <h2 class="skincare-section-block-flexbox-innerBox__title">
+                              Make Yourself at Home
+                          </h2>
+                          <p class="skincare-section-block-flexbox-innerBox__text">
+                            Shop our most popular pairings and enjoy the savings offered through these curated bundles.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+        <section class="explore-section">
+          <div class="container">
+            <div class="explore-section-block">
+              <div class="explore-section-block-flexbox">
+                <h2 class="explore-section-block-flexbox__title">
+                  You might like.
+                </h2>
+                <div class="explore-section-block-flexbox-box">
+                  <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                    <img src="./img/IMAGE (48).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                            Quick View
+                        </p>                                    
+                    </div>
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                        <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                            Aura Contour Jacket
+                        </h3>
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                            Same manufacturer as
+                        </p>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                Van Cleef
+                            </p>
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                BVLGARI
+                            </p>
+                        </div>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                    $
+                                </p>
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                    315
+                                </p>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                    2 Colors
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                    <img src="./img/IMAGE (49).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                            Quick View
+                        </p>                                    
+                    </div>
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                        <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                            Aura Contour Jacket
+                        </h3>
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                            Same manufacturer as
+                        </p>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                Van Cleef
+                            </p>
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                BVLGARI
+                            </p>
+                        </div>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                    $
+                                </p>
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                    315
+                                </p>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                    2 Colors
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                    <img src="./img/IMAGE (50).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                            Quick View
+                        </p>                                    
+                    </div>
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                        <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                            Aura Contour Jacket
+                        </h3>
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                            Same manufacturer as
+                        </p>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                Van Cleef
+                            </p>
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                BVLGARI
+                            </p>
+                        </div>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                    $
+                                </p>
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                    315
+                                </p>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                    2 Colors
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                    <img src="./img/IMAGE (51).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                            Quick View
+                        </p>                                    
+                    </div>
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                        <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                            Aura Contour Jacket
+                        </h3>
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                            Same manufacturer as
+                        </p>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                Van Cleef
+                            </p>
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                BVLGARI
+                            </p>
+                        </div>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                    $
+                                </p>
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                    315
+                                </p>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                    2 Colors
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="arrivals-section-block-flexbox-shopBox-innerBox mini">
+                    <img src="./img/IMAGE (52).png" alt="img" class="arrivals-section-block-flexbox-shopBox-innerBox__img">
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-quickView mini-quickView">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 10V13.5H10M13.1813 13.18L9.5 9.5M2.5 6V2.5H6M2.81867 2.82L6.5 6.5M10 2.5H13.5V6M13.18 2.81867L9.5 6.5M6 13.5H2.5V10M2.82 13.1813L6.5 9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-quickView__text">
+                            Quick View
+                        </p>                                    
+                    </div>
+                    <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox">
+                        <h3 class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__title">
+                            Aura Contour Jacket
+                        </h3>
+                        <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox__text">
+                            Same manufacturer as
+                        </p>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box">
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                Van Cleef
+                            </p>
+                            <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text">
+                                BVLGARI
+                            </p>
+                        </div>
+                        <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox">
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox__text">
+                                    $
+                                </p>
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-box-secondBox-moneyBox__text">
+                                    315
+                                </p>
+                            </div>
+                            <div class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox">
+                                <p class="arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text">
+                                    2 Colors
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="impressing-section">
+          <div class="container">
+            <div class="impressing-section-block">
+              <div class="impressing-section-block-flexbox">
+                <h2 class="impressing-section-block-flexbox__title">
+                  Impressing the press.
+                </h2>
+                <p class="impressing-section-block-flexbox__text">
+                  “Luxury goods from Prada and Gucci are marked up because of their branding. This startup will sell them to you without the labels.”
+                </p>
+                <img src="./img/Frame (9).png" alt="frame" class="impressing-section-block-flexbox__img">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="commitment-section">
+          <div class="container">
+            <div class="commitment-section-block">
+              <div class="commitment-section-block-flexbox">
+                <h2 class="commitment-section-block-flexbox__title">
+                  Our commitment to quality.
+                </h2>
+                <p class="commitment-section-block-flexbox__text">
+                  It all starts with our goal of making luxury-level products accessible to all. Whether it’s sourcing Grade A cashmere from Mongolia or devoting hundreds of hours of wear-testing to develop the perfect leather sneakers — we won’t sell it until we love it.
+                </p>
+                <img src="./img/IMAGE (55).png" alt="" class="commitment-section-block-flexbox__img">
+                <div class="commitment-section-block-flexbox-box">
+                  <div class="commitment-section-block-flexbox-box-innerBox">
+                    <h3 class="commitment-section-block-flexbox-box-innerBox__title">
+                      Atelier Quality
+                    </h3>
+                    <p class="commitment-section-block-flexbox-box-innerBox__text">
+                      Responsibly produced by the same manufacturers as top luxury brands to ensure world-class construction.
+                    </p>
+                  </div>
+                  <div class="commitment-section-block-flexbox-box-innerBox">
+                    <h3 class="commitment-section-block-flexbox-box-innerBox__title">
+                      Exceptional Materials
+                    </h3>
+                    <p class="commitment-section-block-flexbox-box-innerBox__text">
+                      Sourcing the world’s finest materials with an uncompromising focus on gradation, performance, and durability.
+                    </p>
+                  </div>
+                  <div class="commitment-section-block-flexbox-box-innerBox">
+                    <h3 class="commitment-section-block-flexbox-box-innerBox__title">
+                      Timeless Design
+                    </h3>
+                    <p class="commitment-section-block-flexbox-box-innerBox__text">
+                      Recreating everyday essentials with subtle, considered details. Designed to improve the modern, elevated lifestyle.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-block">
+          <div class="footer-block-flexbox">
+            <div class="footer-block-flexbox-rightBox">
+              <h2 class="footer-block-flexbox-rightBox__title">
+                Stay in touch.
+              </h2>
+              <p class="footer-block-flexbox-rightBox__text">
+                Sign up to be the first to know about new collections and exclusive events.
+              </p>
+              <form class="footer-block-flexbox-rightBox-form">
+                <input type="text" class="footer-block-flexbox-rightBox-form__input">
+                <button class="footer-block-flexbox-rightBox-form__btn">
+                  Submit
+                </button>
+              </form>
+            </div>
+            <div class="footer-block-flexbox-leftBox">
+              <nav class="footer-block-flexbox-leftBox-nav">
+                <h3 class="footer-block-flexbox-leftBox-nav__title">
+                  Company
+                </h3>
+                <ul class="footer-block-flexbox-leftBox-nav-ul">
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      Our Story
+                    </a>
+                  </li>
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      Corporate Gifts
+                    </a>
+                  </li>
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      Careers
+                    </a>
+                  </li>
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      Press
+                    </a>
+                  </li>
+              </nav>
+              <nav class="footer-block-flexbox-leftBox-nav">
+                <h3 class="footer-block-flexbox-leftBox-nav__title">
+                  Services
+                </h3>
+                <ul class="footer-block-flexbox-leftBox-nav-ul">
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      Membership
+                    </a>
+                  </li>
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      FAQs
+                    </a>
+                  </li>
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      Help Center
+                    </a>
+                  </li>
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      Contact Us
+                    </a>
+                  </li>
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      Returns
+                    </a>
+                  </li>
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      Track Orders
+                    </a>
+                  </li>
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      Accessibility
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="footer-block-flexbox-leftBox-nav">
+                <h3 class="footer-block-flexbox-leftBox-nav__title">
+                  Guides
+                </h3>
+                <ul class="footer-block-flexbox-leftBox-nav-ul">
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      The Cashmere Guide
+                    </a>
+                  </li>
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      Resort-Grade Bedding
+                    </a>
+                  </li>
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      Guide to Fine Jewelry
+                    </a>
+                  </li>
+                  <li class="footer-block-flexbox-leftBox-nav-ul-li">
+                    <a href="#" class="footer-block-flexbox-leftBox-nav-ul-li__a">
+                      Beauty Guide
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="footer-block-bottomBox">
+            <div class="footer-block-bottomBox-copyrightBox">
+              <a href="#" class="footer-block-bottomBox-copyrightBox-link">
+                <p class="footer-block-bottomBox-copyrightBox-link__text">2023 Italic, Inc. All Rights Reserved.</p>
+              </a>
+              <a href="#" class="footer-block-bottomBox-copyrightBox-link">
+                <p class="footer-block-bottomBox-copyrightBox-link__text">Privacy Policy</p>
+              </a>
+              <a href="#" class="footer-block-bottomBox-copyrightBox-link">
+                <p class="footer-block-bottomBox-copyrightBox-link__text">Terms of Use</p>
+              </a>
+            </div>
+            <div class="footer-block-bottomBox-socialBox">
+              <span class="footer-block-bottomBox-socialBox-span">
+                <a href="#" class="footer-block-bottomBox-socialBox-span__link">
+                  <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.506 3.994C11.4124 3.94529 11.3213 3.89189 11.233 3.834C10.9763 3.66219 10.7413 3.46006 10.533 3.232C10.1231 2.76708 9.85001 2.19769 9.74401 1.587H9.74701C9.68701 1.23 9.71201 1 9.71601 1H7.33801V10.297C7.33801 10.422 7.33801 10.545 7.33301 10.667C7.33301 10.683 7.33101 10.697 7.33001 10.713L7.32901 10.733V10.739C7.30401 11.072 7.19801 11.395 7.02101 11.677C6.84445 11.9589 6.60132 12.1931 6.31301 12.359C6.01301 12.532 5.67401 12.622 5.32901 12.622C4.22101 12.622 3.32301 11.708 3.32301 10.58C3.32301 9.452 4.22101 8.539 5.32901 8.539C5.53901 8.539 5.74701 8.572 5.94701 8.637L5.95001 6.19C5.34375 6.11035 4.72751 6.15883 4.14116 6.33229C3.5548 6.50575 3.01137 6.80034 2.54601 7.197C2.13601 7.557 1.79201 7.987 1.52801 8.467C1.42801 8.642 1.04801 9.345 1.00301 10.487C0.974013 11.134 1.16601 11.805 1.25801 12.082V12.088C1.31601 12.252 1.53901 12.808 1.90401 13.278C2.19701 13.656 2.54401 13.987 2.93401 14.261V14.255L2.93901 14.261C4.09101 15.052 5.36701 15.001 5.36701 15.001C5.58701 14.991 6.32801 15.001 7.16801 14.597C7.72644 14.3305 8.22434 13.9524 8.63101 13.486C8.97101 13.088 9.24001 12.636 9.42901 12.146C9.60312 11.6532 9.69993 11.1364 9.71601 10.614V5.681C9.74501 5.698 10.129 5.955 10.129 5.955C10.129 5.955 10.682 6.314 11.546 6.548C12.166 6.714 13 6.748 13 6.748V4.363C12.707 4.395 12.114 4.301 11.506 3.994Z" fill="black" stroke="black"/>
+                  </svg>                    
+                </a>
+              </span>
+              <span class="footer-block-bottomBox-socialBox-span">
+                <a href="#" class="footer-block-bottomBox-socialBox-span__link">
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.272 3.768C13.0174 3.768 12.7732 3.86914 12.5932 4.04918C12.4131 4.22921 12.312 4.47339 12.312 4.728C12.312 4.98261 12.4131 5.22679 12.5932 5.40682C12.7732 5.58686 13.0174 5.688 13.272 5.688C13.5266 5.688 13.7708 5.58686 13.9508 5.40682C14.1309 5.22679 14.232 4.98261 14.232 4.728C14.232 4.47339 14.1309 4.22921 13.9508 4.04918C13.7708 3.86914 13.5266 3.768 13.272 3.768ZM16.952 5.704C16.9364 5.04024 16.8121 4.38353 16.584 3.76C16.3806 3.22651 16.064 2.74342 15.656 2.344C15.2599 1.93394 14.7756 1.61934 14.24 1.424C13.6181 1.18893 12.9607 1.06177 12.296 1.048C11.448 1 11.176 1 9 1C6.824 1 6.552 1 5.704 1.048C5.03932 1.06177 4.38187 1.18893 3.76 1.424C3.22534 1.62132 2.74155 1.93565 2.344 2.344C1.93394 2.74014 1.61934 3.22435 1.424 3.76C1.18893 4.38187 1.06177 5.03932 1.048 5.704C1 6.552 1 6.824 1 9C1 11.176 1 11.448 1.048 12.296C1.06177 12.9607 1.18893 13.6181 1.424 14.24C1.619 14.776 1.934 15.26 2.344 15.656C2.742 16.064 3.225 16.379 3.76 16.576C4.38187 16.8111 5.03932 16.9382 5.704 16.952C6.552 17 6.824 17 9 17C11.176 17 11.448 17 12.296 16.952C12.9607 16.9382 13.6181 16.8111 14.24 16.576C14.7756 16.3807 15.2599 16.0661 15.656 15.656C16.066 15.258 16.383 14.775 16.584 14.24C16.812 13.617 16.936 12.96 16.952 12.296C16.952 11.448 17 11.176 17 9C17 6.824 17 6.552 16.952 5.704ZM15.512 12.2C15.5062 12.7078 15.4142 13.211 15.24 13.688C15.1123 14.0362 14.9071 14.3507 14.64 14.608C14.38 14.872 14.067 15.078 13.72 15.208C13.243 15.382 12.74 15.474 12.232 15.48C11.432 15.52 11.136 15.528 9.032 15.528C6.928 15.528 6.632 15.528 5.832 15.48C5.30471 15.4899 4.77967 15.4087 4.28 15.24C3.94863 15.1025 3.64908 14.8982 3.4 14.64C3.13447 14.383 2.93187 14.0682 2.808 13.72C2.61269 13.2361 2.50435 12.7216 2.488 12.2C2.488 11.4 2.44 11.104 2.44 9C2.44 6.896 2.44 6.6 2.488 5.8C2.492 5.28 2.586 4.766 2.768 4.28C2.90884 3.94233 3.12501 3.64133 3.4 3.4C3.643 3.125 3.943 2.906 4.28 2.76C4.76764 2.58403 5.2816 2.49206 5.8 2.488C6.6 2.488 6.896 2.44 9 2.44C11.104 2.44 11.4 2.44 12.2 2.488C12.7078 2.49382 13.211 2.5858 13.688 2.76C14.052 2.895 14.378 3.114 14.64 3.4C14.902 3.646 15.107 3.946 15.24 4.28C15.418 4.767 15.51 5.281 15.512 5.8C15.552 6.6 15.56 6.896 15.56 9C15.56 11.104 15.552 11.4 15.512 12.2ZM9 4.896C8.11985 4.89832 7.26377 5.18354 6.5581 5.70956C5.85243 6.23557 5.33456 6.97452 5.08093 7.81733C4.82729 8.66014 4.85133 9.56217 5.14949 10.3903C5.44766 11.2184 6.00415 11.9287 6.73683 12.4164C7.46951 12.9041 8.33957 13.1433 9.21859 13.0987C10.0976 13.0542 10.939 12.7282 11.6186 12.1689C12.2983 11.6096 12.7801 10.8467 12.993 9.99269C13.2059 9.13868 13.1386 8.23884 12.801 7.426C12.49 6.67471 11.9625 6.03295 11.2856 5.58241C10.6087 5.13186 9.81311 4.89292 9 4.896ZM9 11.664C8.2936 11.664 7.61612 11.3834 7.11662 10.8839C6.61712 10.3844 6.3365 9.7069 6.3365 9.0005C6.3365 8.2941 6.61712 7.61662 7.11662 7.11712C7.61612 6.61762 8.2936 6.337 9 6.337C9.7064 6.337 10.3839 6.61762 10.8834 7.11712C11.3829 7.61662 11.6635 8.2941 11.6635 9.0005C11.6635 9.7069 11.3829 10.3844 10.8834 10.8839C10.3839 11.3834 9.7064 11.664 9 11.664Z" fill="black" stroke="black"/>
+                  </svg>                    
+                </a>
+              </span>
+              <span class="footer-block-bottomBox-socialBox-span">
+                <a href="#" class="footer-block-bottomBox-socialBox-span__link">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.869 4.90501C16.1855 4.9909 16.4741 5.15811 16.706 5.39002C16.9379 5.62194 17.1051 5.91048 17.191 6.22701C17.512 7.40001 17.5 9.84701 17.5 9.84701C17.5 9.84701 17.5 12.281 17.191 13.455C17.1051 13.7715 16.9379 14.0601 16.706 14.292C16.4741 14.5239 16.1855 14.6911 15.869 14.777C14.695 15.086 10 15.086 10 15.086C10 15.086 5.317 15.086 4.131 14.764C3.81448 14.6781 3.52593 14.5109 3.29402 14.279C3.0621 14.0471 2.8949 13.7585 2.809 13.442C2.5 12.281 2.5 9.83501 2.5 9.83501C2.5 9.83501 2.5 7.40001 2.809 6.22701C2.89625 5.90989 3.06358 5.62055 3.29492 5.38676C3.52626 5.15297 3.81382 4.9826 4.13 4.89201C5.305 4.58301 10 4.58301 10 4.58301C10 4.58301 14.695 4.58301 15.869 4.90501ZM12.409 9.74901L8.505 11.997V7.50001L12.409 9.74901Z" fill="black" stroke="black"/>
+                  </svg>                    
+                </a>
+              </span>
+              <span class="footer-block-bottomBox-socialBox-span">
+                <a href="#" class="footer-block-bottomBox-socialBox-span__link">
+                  <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.218 1C2.83 1 0.5 3.81 0.5 6.875C0.5 8.295 1.294 10.068 2.565 10.63C2.928 10.793 2.88 10.594 3.192 9.4C3.20621 9.35194 3.2074 9.30097 3.19545 9.25231C3.1835 9.20364 3.15884 9.15902 3.124 9.123C1.307 7.02 2.77 2.699 6.958 2.699C13.021 2.699 11.888 11.088 8.013 11.088C7.014 11.088 6.27 10.304 6.506 9.334C6.791 8.178 7.35 6.936 7.35 6.104C7.35 4.004 4.223 4.316 4.223 7.097C4.223 7.957 4.527 8.537 4.527 8.537L3.334 13.359C3.018 14.645 3.377 16.726 3.408 16.905C3.428 17.004 3.538 17.035 3.6 16.954C3.7 16.824 4.916 15.089 5.256 13.834L5.889 11.524C6.224 12.13 7.191 12.637 8.221 12.637C11.285 12.637 13.5 9.943 13.5 6.601C13.49 3.397 10.747 1 7.218 1Z" fill="black" stroke="black"/>
+                  </svg>                    
+                </a>
+              </span>
+              <span class="footer-block-bottomBox-socialBox-span">
+                <a href="#" class="footer-block-bottomBox-socialBox-span__link">
+                  <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.465 4.235C14.471 4.378 14.473 4.521 14.473 4.665C14.473 8.997 11.378 14 5.718 14C4.03238 13.9966 2.38739 13.4823 1 12.525C1.24 12.551 1.485 12.571 1.734 12.571C3.175 12.571 4.503 12.044 5.556 11.161C4.21 11.141 3.073 10.186 2.681 8.887C3.14236 8.98266 3.62021 8.96274 4.072 8.829C2.663 8.529 1.602 7.204 1.602 5.613V5.573C2.017 5.814 2.492 5.963 2.997 5.983C2.17 5.392 1.627 4.385 1.627 3.248C1.627 2.65 1.778 2.085 2.044 1.598C3.562 3.586 5.83 4.892 8.387 5.028C8.33411 4.78253 8.30762 4.5321 8.308 4.281C8.308 2.468 9.686 1 11.386 1C12.271 1 13.07 1.396 13.631 2.033C14.3258 1.88996 14.9887 1.62122 15.587 1.24C15.3676 1.98737 14.8866 2.63088 14.232 3.053C14.8448 2.97658 15.4415 2.80343 16 2.54C15.5924 3.19114 15.0727 3.765 14.465 4.235Z" fill="black" stroke="black"/>
+                  </svg>                    
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

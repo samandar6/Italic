@@ -1,0 +1,54 @@
+.explore-section {
+    margin-top: 118px;
+    
+    &-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-flexbox {
+            display: flex;
+            flex-direction: column;
+            gap: 21px 0;
+
+            &__title {
+                font-family: 'EB Garamond';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 38px;
+                letter-spacing: 0.8px;
+                color: #383230;
+            }
+
+            &-box {
+                display: flex;
+                gap: 0 10px;
+
+                &-innerBox {
+                    &__text {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 12px;
+                        color: #000000;
+                    }
+                }
+
+                .mini {
+                    width: 202px;
+                    height: 367px;
+                    box-shadow: none;
+                    border: 1px solid gray;
+
+                    &-quickView {
+                        width: 170px;
+                        height: 34px;
+                        top: 165px;
+                    }
+                }
+            }
+        }
+    }
+}

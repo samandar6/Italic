@@ -1,0 +1,49 @@
+.header {
+    &-block {
+        &-flexbox {
+            display: flex;
+            align-items: center;
+            gap: 0 180px;
+
+            &__logo {
+                padding-left: 100px;
+            }
+
+            &-nav {
+                &-ul {
+                    display: flex;
+                    justify-content: center;
+                    gap: 0 20px;
+
+                    &-li {
+                        &__link {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 12px;
+                            color: #383230;
+                        }
+                    }
+                }
+            }
+
+            &-spanbox {
+                display: flex;
+                align-items: center;
+                gap: 0 25px;
+
+                &-span {
+                    &__link {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 12px;
+                        color: #383230;
+                    }
+                }
+            }
+        }
+    }
+}

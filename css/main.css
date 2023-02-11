@@ -1,0 +1,766 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+body .container {
+  width: 1200px;
+}
+body li {
+  list-style-type: none;
+}
+body a {
+  text-decoration: none;
+}
+
+.header-block-flexbox {
+  display: flex;
+  align-items: center;
+  gap: 0 180px;
+}
+.header-block-flexbox__logo {
+  padding-left: 100px;
+}
+.header-block-flexbox-nav-ul {
+  display: flex;
+  justify-content: center;
+  gap: 0 20px;
+}
+.header-block-flexbox-nav-ul-li__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #383230;
+}
+.header-block-flexbox-spanbox {
+  display: flex;
+  align-items: center;
+  gap: 0 25px;
+}
+.header-block-flexbox-spanbox-span__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #383230;
+}
+
+.luxury-section {
+  margin-top: 76px;
+}
+.luxury-section-block-flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px 0;
+}
+.luxury-section-block-flexbox__title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 77px;
+  letter-spacing: 3.2px;
+  color: #000000;
+}
+.luxury-section-block-flexbox-textBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 43px 0;
+}
+.luxury-section-block-flexbox-textBox__title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #000000;
+  width: 590px;
+}
+.luxury-section-block-flexbox-textBox__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000000;
+  padding: 5px 0;
+  border-bottom: 1px solid #000000;
+}
+
+.brands-section {
+  margin-top: 79px;
+  background-color: #F9F7F4;
+  height: 80px;
+}
+.brands-section-block-flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brands-section-block-flexbox-spanBox {
+  display: flex;
+  align-items: center;
+  gap: 0 50px;
+  padding-top: 30px;
+}
+
+.skincare-section {
+  margin-top: 100px;
+}
+.skincare-section-block-flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 40px;
+}
+.skincare-section-block-flexbox-innerBox {
+  width: 500px;
+}
+.skincare-section-block-flexbox-innerBox__title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 0.7px;
+  color: #000000;
+  padding-top: 8px;
+}
+.skincare-section-block-flexbox-innerBox__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+  padding-top: 13px;
+}
+
+.arrivals-section {
+  margin-top: 117px;
+  padding-left: 80px;
+}
+.arrivals-section-block-flexbox {
+  display: flex;
+  align-items: center;
+  gap: 0 110px;
+}
+.arrivals-section-block-flexbox-textBox {
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+}
+.arrivals-section-block-flexbox-textBox__title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 58px;
+  letter-spacing: 2.4px;
+  color: #000000;
+}
+.arrivals-section-block-flexbox-textBox__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #000000;
+}
+.arrivals-section-block-flexbox-textBox__btn {
+  width: 153px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  color: #000000;
+}
+.arrivals-section-block-flexbox-shopBox {
+  display: flex;
+  align-items: center;
+  gap: 0 14px;
+}
+.arrivals-section-block-flexbox-shopBox-innerBox {
+  position: relative;
+  width: 289px;
+  height: 435px;
+  border: 1px solid gray;
+}
+.arrivals-section-block-flexbox-shopBox-innerBox-newBox {
+  width: 33px;
+  height: 18px;
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrivals-section-block-flexbox-shopBox-innerBox-newBox__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.arrivals-section-block-flexbox-shopBox-innerBox-quickView {
+  display: flex;
+  gap: 0 11px;
+  width: 257px;
+  height: 34px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  position: absolute;
+  top: 255px;
+  left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.arrivals-section-block-flexbox-shopBox-innerBox-textBox {
+  padding-left: 17px;
+}
+.arrivals-section-block-flexbox-shopBox-innerBox-textBox__title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.4px;
+  color: #383230;
+  padding-top: 16px;
+}
+.arrivals-section-block-flexbox-shopBox-innerBox-textBox__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #8C8C8C;
+  padding-top: 6px;
+}
+.arrivals-section-block-flexbox-shopBox-innerBox-textBox-box {
+  display: flex;
+  align-items: center;
+  gap: 0 14px;
+  padding-top: 10px;
+}
+.arrivals-section-block-flexbox-shopBox-innerBox-textBox-box__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #383230;
+}
+.arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox {
+  display: flex;
+  align-items: flex-end;
+  gap: 0 12px;
+}
+.arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-moneyBox {
+  display: flex;
+  align-items: center;
+  gap: 0 12px;
+  padding-top: 13px;
+}
+.arrivals-section-block-flexbox-shopBox-innerBox-textBox-secondBox-colorBox__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #8C8C8C;
+}
+
+.line-section {
+  margin-top: 89px;
+  padding-left: 80px;
+}
+.line-section-block-flexbox {
+  display: flex;
+  align-items: center;
+  gap: 0 25px;
+}
+
+.hit-section {
+  margin-top: 88px;
+  padding-left: 80px;
+}
+.hit-section-block__title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.hit-section-block-textBox {
+  display: flex;
+  gap: 0 170px;
+  padding-top: 21px;
+  align-items: center;
+}
+.hit-section-block-textBox__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #000000;
+}
+.hit-section-block-textBox__btn {
+  padding: 10px 30px;
+  border: 1px solid #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+}
+.hit-section-block-flexbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 0 41px;
+  padding-top: 40px;
+}
+.hit-section-block-flexbox-contentBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hit-section-block-flexbox .content {
+  display: flex;
+  gap: 21px 42px;
+}
+.hit-section-block-flexbox .content .mini {
+  width: 230px;
+  height: 357px;
+  box-shadow: none;
+  border: 1px solid gray;
+}
+.hit-section-block-flexbox .content .mini-quickView {
+  width: 198px;
+  height: 34px;
+  top: 195px;
+}
+
+.explore-section {
+  margin-top: 118px;
+}
+.explore-section-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.explore-section-block-flexbox {
+  display: flex;
+  flex-direction: column;
+  gap: 21px 0;
+}
+.explore-section-block-flexbox__title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.8px;
+  color: #383230;
+}
+.explore-section-block-flexbox-box {
+  display: flex;
+  gap: 0 10px;
+}
+.explore-section-block-flexbox-box-innerBox__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+}
+.explore-section-block-flexbox-box .mini {
+  width: 202px;
+  height: 367px;
+  box-shadow: none;
+  border: 1px solid gray;
+}
+.explore-section-block-flexbox-box .mini-quickView {
+  width: 170px;
+  height: 34px;
+  top: 165px;
+}
+
+.atelier-section {
+  margin-top: 117px;
+}
+.atelier-section-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.atelier-section-block-flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 180px;
+}
+.atelier-section-block-flexbox-textBox {
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+}
+.atelier-section-block-flexbox-textBox__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #817A70;
+}
+.atelier-section-block-flexbox-textBox__text {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #000000;
+  width: 410px;
+}
+.atelier-section-block-flexbox-textBox__btn {
+  width: 99px;
+  height: 40px;
+  background: #383230;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+.value-section {
+  background: #F9F7F4;
+  width: 1200px;
+  height: 683px;
+  margin-top: 80px;
+}
+.value-section-block {
+  display: flex;
+  padding-left: 80px;
+  flex-direction: column;
+  gap: 42px 0;
+  padding-top: 78px;
+}
+.value-section-block__title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.value-section-block-flexbox {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+.value-section-block-flexbox-innerBox {
+  width: 333px;
+  height: 435px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+}
+.value-section-block-flexbox-innerBox-contentBox {
+  display: flex;
+  flex-direction: column;
+  gap: 17px 0;
+  padding-left: 31px;
+}
+.value-section-block-flexbox-innerBox-contentBox__title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+.value-section-block-flexbox-innerBox-contentBox__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  width: 201px;
+  color: #000000;
+}
+.value-section-block-flexbox-innerBox-contentBox__img {
+  width: 271px;
+  height: 271px;
+}
+
+.impressing-section {
+  margin-top: 80px;
+  height: 458px;
+  background: #FEFDFC;
+}
+.impressing-section-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.impressing-section-block-flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px 0;
+  padding-top: 78px;
+}
+.impressing-section-block-flexbox__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #817A70;
+}
+.impressing-section-block-flexbox__text {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #000000;
+  width: 724px;
+}
+
+.commitment-section {
+  background: #F9F7F4;
+  margin-top: 87px;
+  width: 1200px;
+}
+.commitment-section-block {
+  display: flex;
+  align-items: center;
+}
+.commitment-section-block-flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 78px;
+}
+.commitment-section-block-flexbox__title {
+  padding-left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #817A70;
+}
+.commitment-section-block-flexbox__text {
+  padding-top: 30px;
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #000000;
+  width: 1032px;
+  padding-left: 80px;
+}
+.commitment-section-block-flexbox__img {
+  width: 1200px;
+  height: 460px;
+  padding-top: 82px;
+}
+.commitment-section-block-flexbox-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 70px;
+  padding-top: 118px;
+}
+.commitment-section-block-flexbox-box-innerBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+.commitment-section-block-flexbox-box-innerBox__title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #383230;
+}
+.commitment-section-block-flexbox-box-innerBox__text {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #817A70;
+  width: 302px;
+}
+
+.footer {
+  width: 1200px;
+  height: 564px;
+  background: #383230;
+  margin-left: -80px;
+  margin-top: 61px;
+}
+.footer-block {
+  padding-top: 77px;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 190px 0;
+}
+.footer-block-flexbox {
+  display: flex;
+  gap: 0 150px;
+}
+.footer-block-flexbox-rightBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+.footer-block-flexbox-rightBox__title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #FFFFFF;
+}
+.footer-block-flexbox-rightBox__text {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.6px;
+  color: #E0DBD2;
+  width: 313px;
+}
+.footer-block-flexbox-rightBox-form__input {
+  width: 239px;
+  height: 48px;
+  background: none;
+  border: 1px solid #8C8C8C;
+  border-radius: 4px;
+  outline: none;
+}
+.footer-block-flexbox-rightBox-form__btn {
+  width: 77px;
+  height: 48px;
+  border-radius: 3px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #383230;
+}
+.footer-block-flexbox-leftBox {
+  display: flex;
+  gap: 0 90px;
+}
+.footer-block-flexbox-leftBox-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+}
+.footer-block-flexbox-leftBox-nav__title {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #817A70;
+}
+.footer-block-flexbox-leftBox-nav-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+}
+.footer-block-flexbox-leftBox-nav-ul-li__a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #E0DBD2;
+}
+.footer-block-bottomBox {
+  display: flex;
+  align-items: center;
+  gap: 0 450px;
+}
+.footer-block-bottomBox-copyrightBox {
+  display: flex;
+  gap: 0 20px;
+}
+.footer-block-bottomBox-copyrightBox-link__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #8C8C8C;
+}
+.footer-block-bottomBox-socialBox {
+  display: flex;
+  gap: 0 25px;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */

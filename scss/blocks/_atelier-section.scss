@@ -1,0 +1,58 @@
+.atelier-section {
+    margin-top: 117px;
+
+    &-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-flexbox {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0 180px;
+
+            &-textBox {
+                display: flex;
+                flex-direction: column;
+                gap: 30px 0;
+
+                &__title {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 14px;
+                    text-transform: uppercase;
+                    color: #817A70;
+                }
+
+                &__text {
+                    font-family: 'EB Garamond';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 34px;
+                    line-height: 48px;
+                    letter-spacing: 2px;
+                    color: #000000;
+                    width: 410px;
+                }
+
+                &__btn {
+                    width: 99px;
+                    height: 40px;
+                    background: #383230;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 14px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

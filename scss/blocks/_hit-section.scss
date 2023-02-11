@@ -1,0 +1,74 @@
+.hit-section {
+    margin-top: 88px;
+    padding-left: 80px;
+
+    &-block {
+        &__title {
+            font-family: 'EB Garamond';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 31px;
+            line-height: 48px;
+            letter-spacing: 2px;
+            color: #000000;
+        } 
+
+        &-textBox {
+            display: flex;
+            gap: 0 170px;
+            padding-top: 21px;
+            align-items: center;
+
+            &__text {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 26px;
+                color: #000000;
+            }
+
+            &__btn {
+                padding: 10px 30px;
+                border: 1px solid #000000;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 14px;
+                text-align: center;
+                color: #000000;
+            }
+        }
+
+        &-flexbox {
+            display: flex;
+            align-items: flex-start;
+            gap: 0 41px;
+            padding-top: 40px;
+
+            &-contentBox {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .content {
+                display: flex;
+                gap: 21px 42px;
+
+                .mini {
+                    width: 230px;
+                    height: 357px;
+                    box-shadow: none;
+                    border: 1px solid gray;
+
+                    &-quickView {
+                        width: 198px;
+                        height: 34px;
+                        top: 195px;
+                    }
+                }
+            }
+        }
+    }
+}

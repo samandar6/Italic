@@ -1,0 +1,169 @@
+.arrivals-section {
+    margin-top: 117px;
+    padding-left: 80px;
+
+    &-block {
+        &-flexbox {
+            display: flex;
+            align-items: center;
+            gap: 0 110px;
+
+            &-textBox {
+                display: flex;
+                flex-direction: column;
+                gap: 30px 0;
+
+                &__title {
+                    font-family: 'EB Garamond';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 36px;
+                    line-height: 58px;
+                    letter-spacing: 2.4px;
+                    color: #000000;
+                }
+
+                &__text {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 26px;
+                    color: #000000;
+                }
+
+                &__btn {
+                    width: 153px;
+                    height: 42px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid #000000;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 14px;
+                    color: #000000;
+                }
+            }
+
+            &-shopBox {
+                display: flex;
+                align-items: center;
+                gap: 0 14px;
+    
+                &-innerBox {
+                    position: relative;
+                    width: 289px;
+                    height: 435px;
+                    border: 1px solid gray;
+    
+                    &-newBox {
+                        width: 33px;
+                        height: 18px;
+                        position: absolute;
+                        top: 11px;
+                        left: 11px;
+                        background-color: #FFFFFF;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+    
+                        &__text {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 11px;
+                            line-height: 12px;
+                            text-transform: uppercase;
+                            color: #000000;
+                        }
+                    }
+
+                    &-quickView {
+                        display: flex;
+                        gap: 0 11px;
+                        width: 257px;
+                        height: 34px;
+                        background: #FFFFFF;
+                        border: 1px solid #000000;
+                        position: absolute;
+                        top: 255px;
+                        left: 15px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                    }
+
+                    &-textBox {
+                        padding-left: 17px;
+
+                        &__title {
+                            font-family: 'EB Garamond';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            letter-spacing: 0.4px;
+                            color: #383230;
+                            padding-top: 16px;
+                        }
+
+                        &__text {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 12px;
+                            color: #8C8C8C;
+                            padding-top: 6px;
+                        }
+
+                        &-box {
+                            display: flex;
+                            align-items: center;
+                            gap: 0 14px;
+                            padding-top: 10px;
+
+                            &__text {
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 19px;
+                                color: #383230;
+                            }
+                        }
+
+                        &-secondBox {
+                            display: flex;
+                            align-items: flex-end;
+                            gap: 0 12px;
+
+                            &-moneyBox {
+                                display: flex;
+                                align-items: center;
+                                gap: 0 12px;
+                                padding-top: 13px;
+                            }
+
+                            &-colorBox {
+                                &__text {
+                                    font-family: 'Inter';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 11px;
+                                    line-height: 12px;
+                                    text-transform: uppercase;
+                                    color: #8C8C8C;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.line-section {
+    margin-top: 89px;
+    padding-left: 80px;
+
+    &-block {
+        &-flexbox {
+            display: flex;
+            align-items: center;
+            gap: 0 25px;
+        }
+    }
+}

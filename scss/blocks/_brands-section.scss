@@ -1,0 +1,20 @@
+.brands-section {
+    margin-top: 79px;
+    background-color: #F9F7F4;
+    height: 80px;
+
+    &-block {
+        &-flexbox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &-spanBox {
+                display: flex;
+                align-items: center;
+                gap: 0 50px;
+                padding-top: 30px;
+            }
+        }
+    }
+}

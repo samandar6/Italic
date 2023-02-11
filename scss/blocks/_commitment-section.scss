@@ -1,0 +1,80 @@
+.commitment-section {
+    background: #F9F7F4;
+    margin-top: 87px;
+    width: 1200px;
+
+    &-block {
+        display: flex;
+        align-items: center;
+
+        &-flexbox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 78px;
+
+            &__title {
+                padding-left: 80px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 12px;
+                text-transform: uppercase;
+                color: #817A70;
+            }
+
+            &__text {
+                padding-top: 30px;
+                font-family: 'EB Garamond';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 35px;
+                line-height: 48px;
+                letter-spacing: 2px;
+                color: #000000;
+                width: 1032px;
+                padding-left: 80px;
+            }
+
+            &__img {
+                width: 1200px;
+                height: 460px;
+                padding-top: 82px;
+            }
+
+            &-box {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0 70px;
+                padding-top: 118px;
+
+                &-innerBox {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px 0;
+
+                    &__title {
+                        font-family: 'EB Garamond';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 29px;
+                        color: #383230;
+                    }
+
+                    &__text {
+                        font-family: 'EB Garamond';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #817A70;
+                        width: 302px;
+                    }
+                }
+            }
+        }
+    }
+}
